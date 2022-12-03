@@ -17,7 +17,7 @@
     <!-- Logo, Navigation, etc. -->
     <header>
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand big" href="#">
                     <span class="text-danger font-weight-bold">[</span>
                     SylerTech
@@ -44,33 +44,49 @@
             <div class="col-1 d-flex justify-content-center">
                 <ul class="socials right list-group">
                     <li class="list-group-item">
-                        <i class="fa-brands fa-xl fa-github"></i>
+                        <i class="fa-brands pl-1 fa-2xl fa-github"></i>
                     </li>
                     <li class="list-group-item">
-                        <i class="fa-brands fa-xl fa-instagram"></i>
+                        <i class="fa-brands pl-1 fa-2xl fa-instagram"></i>
                     </li>
                     <li class="list-group-item">
-                        <i class="fa-brands fa-xl fa-linkedin"></i>
+                        <i class="fa-brands pl-1 fa-2xl fa-linkedin"></i>
                     </li>
                     <li class="list-group-item">
-                        <div class="vl ml-2"></div>
+                        <div class="vl ml-3"></div>
                     </li>
                 </ul>
             </div>
-            <div class="col-10 d-flex justify-content-center">Main</div>
+            <div class="col-10 d-flex">
+                <div id="home">
+                    <div class="intro">
+                        <p class="text-muted">Hello, this is</p>
+                        <h1><span class="text-danger font-weight-bold">[</span>Syler<span class="text-danger font-weight-bold">]</span>.</h1>
+                        <h1 class="text-muted">Full Stack Developer</h1>
+                        <p class="text-muted">I am a full stack developer specialize in Django Framework.<br>
+                        I love building projects from the group up and enjoy <br>
+                        the evolvement of the development of my product.</p>
+                        <button type="button" class="btn letter-spacing btn-primary">Get in touch</button>
+                    </div>
+                </div>
+                <div id="expereince"></div>
+                <div id="work"></div>
+                <div id="contact"></div>
+
+            </div>
             <div class="col-1 d-flex justify-content-center">
                 <ul class="email list-group">
                     <li class="list-group-item email-rotate">
-                        <a class="text-dark text-decoration-none" href="#">info@sylertech.com</a>
+                        <h6><a class="text-muted big letter-spacing text-decoration-none" href="#">info@sylertech.com</a></h6>
                     </li>
                 </ul>
-                <div class="vl mr-1"></div>
+                <div class="vl ml-1"></div>
             </div>
     </main>
     <!-- Additional navigation, contact details, etc. -->
     <footer>
         <div>
-            <p class="text-center">SylerTech &#169 <span id="txtYear"></span></p>
+            <h6 class="text-center text-muted">SylerTech &#169 <span id="txtYear"></span></h6>
         </div>
     </footer>
     <script src="assets/js/main.js"></script>

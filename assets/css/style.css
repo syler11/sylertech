@@ -6,9 +6,10 @@
 
 /* Containers */
 .main-container {
-    min-height: 85vh;
+    min-height: calc(100vh - 106px);
 }
 
+/* Social icons and email on the sides */
 .socials {
     position: fixed;
     bottom: 120px;
@@ -33,6 +34,20 @@
   .email-rotate {
     transform: rotate(90deg);
 
+  }
+
+  .letter-spacing {
+    letter-spacing: 1px;
+  }
+
+  /* Home section */
+  #home {
+    margin-top: 150px;
+    margin-left: 25%;
+  }
+
+  #home p, h1 {
+    font-size: larger;
   }
 
 /* Media Queries */
