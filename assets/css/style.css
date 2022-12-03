@@ -1,0 +1,38 @@
+/* Font */
+
+/* Colours */
+
+/* Elements */
+
+/* Containers */
+.main-container {
+    min-height: 85vh;
+}
+
+.socials {
+    position: fixed;
+    bottom: 120px;
+}
+
+.socials li, .email li {
+    border: none;
+}
+
+.email {
+    position: fixed;
+    bottom: 190px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 120px;
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .email-rotate {
+    transform: rotate(90deg);
+
+  }
+
+/* Media Queries */
