@@ -32,7 +32,7 @@
                         <a class="nav-item nav-link" href="#">Experience</a>
                         <a class="nav-item nav-link" href="#">Work</a>
                         <a class="nav-item nav-link" href="#">Contact</a>
-                        <a class="btn btn-primary btn-small navbar-btn"href="#">CV</a>
+                        <a class="btn btn-primary btn-small navbar-btn" href="#">CV</a>
                     </div>
                 </div>
             </nav>
@@ -41,6 +41,7 @@
     <!-- Main content CTA button -->
     <main>
         <div class="row main-container no-gutters">
+            <!-- Socials icon on bottom left -->
             <div class="col-1 d-flex justify-content-center">
                 <ul class="socials right list-group">
                     <li class="list-group-item">
@@ -58,26 +59,85 @@
                 </ul>
             </div>
             <div class="col-10 d-flex">
-                <div id="home">
-                    <div class="intro">
-                        <p class="text-muted">Hello, this is</p>
-                        <h1><span class="text-danger font-weight-bold">[</span>Syler<span class="text-danger font-weight-bold">]</span>.</h1>
-                        <h1 class="text-muted">Full Stack Developer</h1>
-                        <p class="text-muted">I am a full stack developer specialize in Django Framework.<br>
-                        I love building projects from the group up and enjoy <br>
-                        the evolvement of the development of my product.</p>
-                        <button type="button" class="btn letter-spacing btn-primary">Get in touch</button>
+                <div class="row">
+                    <div class="col-12" id="home">
+                        <div class="intro">
+                            <p class="text-muted">Hello, this is</p>
+                            <h1><span class="text-danger font-weight-bold">[</span>Syler<span
+                                    class="text-danger font-weight-bold">]</span>.</h1>
+                            <h1 class="text-muted">Full Stack Developer</h1>
+                            <p class="text-muted">I am a full stack developer specialized in Django Framework.<br>
+                                I love building projects from the group up and enjoy <br>
+                                the evolvement of the development of my product.</p>
+                            <button type="button" class="btn letter-spacing btn-primary">Get in touch</button>
+                        </div>
                     </div>
-                </div>
-                <div id="expereince"></div>
-                <div id="work"></div>
-                <div id="contact"></div>
+                    <div class="col-12" id="about">
+                        <div class="row">
+                            <div class="col-7">
+                                <h3 class="text-muted">About Me</h3>
+                                <p class="text-muted ">Hello! My name is Syler. I love webdevelopment and software
+                                    enginnering.<br>
+                                    My interest in web development started back in 2013 when I decided to try <br>
+                                    create my first website from scrath with no previous experience or knowledge.<br>
+                                    Since my focus turned back towards the Hospitality industry but COVID-19 <br>
+                                    my interest turned back towards the tech world.<br>
+                                    Since 2020 I am actively focusing to pursue a carrier as a webdeveloper.</p>
+                            </div>
+                            <div class="col-5">
+                                <div class="photo-frame1 frame">
+                                    <div class="photo-frame2 frame">
+                                        <div class="photo-frame3 frame">
+                                            <img src="assets/pictures/77334233.jpg" width="200px" height="200px "
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="experience">
+                        <h3 class="text-muted">Experience</h3>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'SelfDev')">Self Development</button>
+                            <button class="tablinks" onclick="openCity(event, 'CodeIns')" id="defaultOpen">Code
+                                Institute</button>
+                            <button class="tablinks" onclick="openCity(event, 'StartUp')">StartUp</button>
+                        </div>
 
+                        <div id="SelfDev" class="tabcontent">
+                            <h3>Self Development</h3>
+                            <date>2012 - 2014</date>
+                            <p>I had my first expereince with Front End development in 2012.<br>
+                                I have developend my first website using HTML, CSS and Vanilla JS.<br>
+                                I have upgraded my website using wordpress and carried on the development on the
+                                WordPress platform.<br>
+                                My business website started to gain traction and needed to extend functionality.</p>
+                        </div>
+
+                        <div id="CodeIns" class="tabcontent">
+                            <h3>Code Institute</h3>
+                            <date>Dec 2020 - July 2022</date>
+                            <p>Paris is the capital of France.</p>
+                        </div>
+                        
+                        <div id="StartUp" class="tabcontent">
+                            <h3>StartUp</h3>
+                            <date>Dec 2022</date>
+                            <p>I have started my StartUp in the of 2022 as webdeveloper.<br>
+                            My first project was to develop an HR application to simplify </p>
+                        </div>
+                    </div>
+                    <div id="work"></div>
+                    <div id="contact"></div>
+                </div>
             </div>
+            <!-- Email on bottom right -->
             <div class="col-1 d-flex justify-content-center">
                 <ul class="email list-group">
                     <li class="list-group-item email-rotate">
-                        <h6><a class="text-muted big letter-spacing text-decoration-none" href="#">info@sylertech.com</a></h6>
+                        <h6><a class="text-muted big letter-spacing text-decoration-none"
+                                href="#">info@sylertech.com</a></h6>
                     </li>
                 </ul>
                 <div class="vl ml-1"></div>
