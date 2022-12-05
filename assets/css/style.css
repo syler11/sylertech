@@ -92,7 +92,7 @@ h3 {
     background-color: aquamarine;
 }
 
-/* About section */
+/* Experience section */
 
 #experience {
     margin-top: 150px;
@@ -106,7 +106,7 @@ h3 {
     border: 1px solid #ccc;
     background-color: #f1f1f1;
     width: 30%;
-    height: 300px;
+    min-height: 300px;
   }
   
   /* Style the buttons inside the tab */
@@ -141,7 +141,45 @@ h3 {
     border: 1px solid #ccc;
     width: 70%;
     border-left: none;
-    height: 300px;
+    min-height: 300px;
   }
+
+  /* Work section */
+
+#work {
+    margin-top: 150px;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.work-box {
+    background-color: #ccc;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    opacity: 0.8;
+}
+
+.project-image{
+    width: 100%;
+    z-index: 1;
+}
+
+.project-image img {
+    height: 100%;
+    width: 60%;
+}
+
+.project-content {
+    position: absolute;
+    width: 40%;
+    right: 15%;
+    z-index: 2;
+}
+
+.project-content p {
+    font-size: larger;
+}
 
 /* Media Queries */
