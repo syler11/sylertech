@@ -1,8 +1,22 @@
 /* Font */
 
 /* Colours */
+.blue {
+    background-color: #007bff
+}
 
 /* Elements */
+
+i {
+    color: #007bff;
+}
+
+li::marker {
+    content: '▶ ';
+    font-size: 1em;
+    color: #007bff;
+}
+
 
 /* Containers */
 .main-container {
@@ -26,7 +40,7 @@
 }
 
 .vl {
-    border-left: 2px solid black;
+    border-left: 2px solid #007bff;
     height: 120px;
     position: fixed;
     bottom: 0px;
@@ -34,7 +48,6 @@
 
 .email-rotate {
     transform: rotate(90deg);
-
 }
 
 .letter-spacing {
@@ -66,30 +79,29 @@ h3 {
 .frame {
     height: 200px;
     width: 200px;
-    border: 1px solid gray;
-    border-radius: 5px;
 }
 
 .frame img {
     border-radius: 5px;
+    border: 2px solid #007bff;
 }
 
 .photo-frame1 {
     position: relative;
     transform: rotate(-30deg);
-    background-color: blueviolet;
+    border: 2px solid #007bff;
+    
 
 }
 
 .photo-frame2 {
     position: relative;
     transform: rotate(-30deg);
-    background-color: beige;
+    border: 2px solid #007bff;
 }
 
 .photo-frame3 {
     transform: rotate(-300deg);
-    background-color: aquamarine;
 }
 
 /* Experience section */
@@ -145,22 +157,23 @@ h3 {
   }
 
   /* Work section */
-
-#work {
-    margin-top: 150px;
-    margin-left: 15%;
-    width: 70%;
+  
+  #work {
+      margin-top: 150px;
+      margin-left: 15%;
+      width: 70%;
 }
-
+    
 .work-box {
-    background-color: #ccc;
+    background-color: black;
     padding: 1rem;
     width: 100%;
     position: relative;
     left: 0px;
     opacity: 0.8;
+    min-height: 120px;
 }
-
+    
 .project-image{
     width: 100%;
     z-index: 1;
@@ -169,17 +182,40 @@ h3 {
 .project-image img {
     height: 100%;
     width: 60%;
+    background-color: black;
 }
 
 .project-content {
     position: absolute;
-    width: 40%;
-    right: 15%;
+    width: 50%;
     z-index: 2;
 }
 
-.project-content p {
-    font-size: larger;
+.project-space {
+    margin-top: 150px;
 }
 
+.l-15 {
+    left: 15%;
+}
+
+.r-15 {
+    right: 15%;
+}
+
+.opacity-25 {
+    opacity: 0.75;
+}
+
+/* Contact section */
+
+#contact {
+    margin-top: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 50%;
+    font-size: larger;
+    
+}
+    
 /* Media Queries */
