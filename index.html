@@ -42,7 +42,8 @@
     <main>
         <div class="row main-container no-gutters">
             <!-- Socials icon on bottom left -->
-            <div class="col-1 d-flex justify-content-center">
+            <div class="col-1">
+                <div class="d-flex justify-content-center">
                 <ul class="socials right list-group">
                     <li class="list-group-item">
                         <i class="fa-brands pl-1 fa-2xl fa-github"></i>
@@ -57,10 +58,11 @@
                         <div class="vl ml-3"></div>
                     </li>
                 </ul>
+                </div>
             </div>
             <div class="col-10 d-flex">
                 <div class="row">
-                    <div class="col-12" id="home">
+                    <div id="home">
                         <div class="intro">
                             <p class="text-muted">Hello, this is</p>
                             <h1><span class="text-danger font-weight-bold">[</span>Syler<span
@@ -75,10 +77,13 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-12" id="about">
+                    <div id="about">
                         <div class="row">
                             <div class="col-7">
-                                <h3 class="text-muted">About Me</h3>
+                                <div class="d-flex flex-row">
+                                    <h3 class="text-muted pr-2">About Me</h3>
+                                    <hr class="blue">
+                                </div>
                                 <p class="text-muted ">Hello! My name is Syler. I love webdevelopment and software
                                     enginnering.<br>
                                     My interest in web development started back in 2013 when I decided to try <br>
@@ -91,7 +96,7 @@
                                 <div class="photo-frame1 frame">
                                     <div class="photo-frame2 frame">
                                         <div class="photo-frame3 frame">
-                                            <img src="assets/pictures/77334233.jpg" width="200px" height="200px" alt="">
+                                            <img src="assets/pictures/portrait.jpg" width="200px" height="200px" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -99,7 +104,10 @@
                         </div>
                     </div>
                     <div id="experience">
-                        <h3 class="text-muted">Experience</h3>
+                        <div class="d-flex flex-row">
+                            <h3 class="text-muted">Experience</h3>
+                            <hr class="blue">
+                        </div>
                         <div class="tab">
                             <button class="tablinks" onclick="openCity(event, 'SelfDev')">Self Development</button>
                             <button class="tablinks" onclick="openCity(event, 'CodeIns')" id="defaultOpen">Code
@@ -213,6 +221,82 @@
                                     </div>
                                     <div class="ml-3">
                                         <a href="https://progroup-app.herokuapp.com/">
+                                            <i class="fa-regular pl-1 fa-lg fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                           <!-- Project3 -->
+                           <div class="d-flex project-space flex-row">
+                            <div class="project-image"><img src="assets/pictures/fastsupplies.jpg" alt="" srcset="" width="500px"
+                                    height="250px"></div>
+                            <div class="r-15 project-content">
+                                <p class="text-right">CI Milestone Project</p>
+                                <h2 class="text-right">Fast Supplies</h2>
+                                <div class="work-box">
+                                    <p class="text-right text-white">Local gym in the City of Stirling with growing
+                                        client base.
+                                        The gym offers extensive variety of classes and gym space for all age group,
+                                        gender.
+                                        The gym is easily accessible and located in the City Centre. The website offers
+                                        several
+                                        functionalities to retain existing client and gain new ones.</p>
+                                </div>
+                                <div class="Py-2 d-flex bg-white opacity-25 flex-row-reverse">
+                                    <div class="pl-4">HTML</div>
+                                    <div class="pl-4">CSS</div>
+                                    <div class="pl-4">BOOTSTRAP</div>
+                                    <div class="pl-4">JS / JQUERY</div>
+                                    <div class="pl-4">PYTHON</div>
+                                    <div class="pl-4">DJANGO</div>
+                                    <div class="pl-4">POSTGRESQL</div>
+                                </div>
+                                <div class="mt-2 d-flex flex-row-reverse">
+                                    <div class="ml-3">
+                                        <a href="https://fast-supplies.herokuapp.com/">
+                                            <i class="fa-regular pl-1 fa-lg fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://github.com/syler11/fast_supplies_ms4">
+                                            <i class="fa-brands pl-1 fa-2xl fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Project4 -->
+                        <div class="d-flex project-space flex-row">
+                            <div class="project-image text-right"><img src="assets/pictures/boostaff.jpg" alt="" srcset="" width="500px"
+                                    height="250px"></div>
+                            <div class="l-15 project-content">
+                                <p class="text-left">Workplace Management Project</p>
+                                <h2 class="text-left">BOO Staff</h2>
+                                <div class="work-box">
+                                    <p class="text-left text-white">Track your group reservations with ease from you ProGroup app.
+
+                                        Add new reservations, categorize by status all managed by you and your organisation.</p>
+                                </div>
+                                <div class="py-2 d-flex bg-white opacity-25 flex-row">
+                                    <div>HTML</div>
+                                    <div class="pl-4">CSS</div>
+                                    <div class="pl-4">BOOTSTRAP</div>
+                                    <div class="pl-4">JS / JQUERY</div>
+                                    <div class="pl-4">PYTHON</div>
+                                    <div class="pl-4">DJANGO</div>
+                                    <div class="pl-4">POSTGRESQL</div>
+                                </div>
+                                <div class="mt-2 d-flex flex-row">
+                                    <div>
+                                        <a href="https://github.com/syler11/boo_rota">
+                                            <i class="fa-brands pl-1 fa-2xl fa-github"></i>
+                                        </a>
+                                    </div>
+                                    <div class="ml-3">
+                                        <a href="https://boo-staff.herokuapp.com/">
                                             <i class="fa-regular pl-1 fa-lg fa-arrow-up-right-from-square"></i>
                                         </a>
                                     </div>

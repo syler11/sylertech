@@ -17,6 +17,13 @@ li::marker {
     color: #007bff;
 }
 
+hr {
+    width: 90%;
+    position: relative;
+    left: 0;
+    margin-bottom: 15px;
+}
+
 
 /* Containers */
 .main-container {
