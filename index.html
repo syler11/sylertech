@@ -8,6 +8,8 @@
     <!-- Stylesheets, CDNs, FontAwesone, Bootstrap, etc -->
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/e3c6fb2d08.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>SylerTech</title>
@@ -28,10 +30,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Experience</a>
-                        <a class="nav-item nav-link" href="#">Work</a>
-                        <a class="nav-item nav-link" href="mailto:info@sylertech.com">Contact</a>
+                        <a class="nav-item nav-link active" href="#about">About<span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#experience">Experience</a>
+                        <a class="nav-item nav-link" href="#work">Work</a>
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
                         <a class="btn btn-primary btn-small navbar-btn" href="#">CV</a>
                     </div>
                 </div>
@@ -44,20 +47,20 @@
             <!-- Socials icon on bottom left -->
             <div class="col-1">
                 <div class="d-flex justify-content-center">
-                <ul class="socials right list-group">
-                    <li class="list-group-item">
-                        <i class="fa-brands pl-1 fa-2xl fa-github"></i>
-                    </li>
-                    <li class="list-group-item">
-                        <i class="fa-brands pl-1 fa-2xl fa-instagram"></i>
-                    </li>
-                    <li class="list-group-item">
-                        <i class="fa-brands pl-1 fa-2xl fa-linkedin"></i>
-                    </li>
-                    <li class="list-group-item">
-                        <div class="vl ml-3"></div>
-                    </li>
-                </ul>
+                    <ul class="socials right list-group">
+                        <li class="list-group-item">
+                            <i class="fa-brands pl-1 fa-2xl fa-github"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-brands pl-1 fa-2xl fa-instagram"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-brands pl-1 fa-2xl fa-linkedin"></i>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="vl ml-3"></div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-10 d-flex">
@@ -82,7 +85,6 @@
                             <div class="col-7">
                                 <div class="d-flex flex-row">
                                     <h3 class="text-muted pr-2">About Me</h3>
-                                    <hr class="blue">
                                 </div>
                                 <p class="text-muted ">Hello! My name is Syler. I love webdevelopment and software
                                     enginnering.<br>
@@ -106,19 +108,19 @@
                     <div id="experience">
                         <div class="d-flex flex-row">
                             <h3 class="text-muted">Experience</h3>
-                            <hr class="blue">
                         </div>
                         <div class="tab">
-                            <button class="tablinks" onclick="openCity(event, 'SelfDev')">Self Development</button>
-                            <button class="tablinks" onclick="openCity(event, 'CodeIns')" id="defaultOpen">Code
+                            <button class="tablinks" onclick="openCity(event, 'SelfDev')" id="defaultOpen">Self
+                                Development</button>
+                            <button class="tablinks" onclick="openCity(event, 'CodeIns')">Code
                                 Institute</button>
                             <button class="tablinks" onclick="openCity(event, 'StartUp')">StartUp</button>
                         </div>
 
                         <div id="SelfDev" class="tabcontent">
-                            <h3>Self Development</h3>
+                            <h3 class="pt-2">Self Development</h3>
                             <date>2012 - 2014</date>
-                            <ul>
+                            <ul class="pt-2">
                                 <li>I had my first expereince with Front End development in 2012.</li>
                                 <li>I have developend my first website using HTML, CSS and Vanilla JS.</li>
                                 <li> I have upgraded my website using wordpress and carried on the development on the
@@ -194,15 +196,17 @@
                         </div>
                         <!-- Project2 -->
                         <div class="d-flex project-space flex-row">
-                            <div class="project-image text-right"><img src="assets/pictures/propgroup.jpg" alt="" srcset="" width="500px"
-                                    height="250px"></div>
+                            <div class="project-image text-right"><img src="assets/pictures/propgroup.jpg" alt=""
+                                    srcset="" width="500px" height="250px"></div>
                             <div class="l-15 project-content">
                                 <p class="text-left">CI Milestone Project</p>
                                 <h2 class="text-left">ProGroup</h2>
                                 <div class="work-box">
-                                    <p class="text-left text-white">Track your group reservations with ease from you ProGroup app.
+                                    <p class="text-left text-white">Track your group reservations with ease from you
+                                        ProGroup app.
 
-                                        Add new reservations, categorize by status all managed by you and your organisation.</p>
+                                        Add new reservations, categorize by status all managed by you and your
+                                        organisation.</p>
                                 </div>
                                 <div class="py-2 d-flex bg-white opacity-25 flex-row">
                                     <div>HTML</div>
@@ -228,10 +232,10 @@
 
                             </div>
                         </div>
-                           <!-- Project3 -->
-                           <div class="d-flex project-space flex-row">
-                            <div class="project-image"><img src="assets/pictures/fastsupplies.jpg" alt="" srcset="" width="500px"
-                                    height="250px"></div>
+                        <!-- Project3 -->
+                        <div class="d-flex project-space flex-row">
+                            <div class="project-image"><img src="assets/pictures/fastsupplies.jpg" alt="" srcset=""
+                                    width="500px" height="250px"></div>
                             <div class="r-15 project-content">
                                 <p class="text-right">CI Milestone Project</p>
                                 <h2 class="text-right">Fast Supplies</h2>
@@ -270,15 +274,17 @@
                         </div>
                         <!-- Project4 -->
                         <div class="d-flex project-space flex-row">
-                            <div class="project-image text-right"><img src="assets/pictures/boostaff.jpg" alt="" srcset="" width="500px"
-                                    height="250px"></div>
+                            <div class="project-image text-right"><img src="assets/pictures/boostaff.jpg" alt=""
+                                    srcset="" width="500px" height="250px"></div>
                             <div class="l-15 project-content">
                                 <p class="text-left">Workplace Management Project</p>
                                 <h2 class="text-left">BOO Staff</h2>
                                 <div class="work-box">
-                                    <p class="text-left text-white">Track your group reservations with ease from you ProGroup app.
+                                    <p class="text-left text-white">Track your group reservations with ease from you
+                                        ProGroup app.
 
-                                        Add new reservations, categorize by status all managed by you and your organisation.</p>
+                                        Add new reservations, categorize by status all managed by you and your
+                                        organisation.</p>
                                 </div>
                                 <div class="py-2 d-flex bg-white opacity-25 flex-row">
                                     <div>HTML</div>
@@ -327,6 +333,11 @@
                 <div class="vl ml-1"></div>
             </div>
         </div>
+        <div id="btt" class="btt-button shadow-sm rounded-0 border border-black">
+            <a class="btt-link d-flex h-100">
+                <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+            </a>
+        </div>
     </main>
     <!-- Additional navigation, contact details, etc. -->
     <footer>
@@ -336,5 +347,6 @@
     </footer>
     <script src="assets/js/main.js"></script>
 </body>
+
 
 </html>

@@ -26,3 +26,23 @@ function openCity(evt, cityName) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+
+  window.scroll({top: 0, behavior: "smooth"})
+
+  document.getElementById("btt").style.display = "none";
+
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("btt").style.display = "block";
+    } else {
+        document.getElementById("btt").style.display = "none";
+    }
+   
+}
+  
+  $('.btt-link').click(function(e) {
+    window.scrollTo(0,0)
+  })

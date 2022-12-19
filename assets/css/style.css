@@ -7,8 +7,17 @@
 
 /* Elements */
 
+html { 
+scroll-behavior: smooth;
+} 
+
+
 i {
     color: #007bff;
+}
+
+#experience li {
+    margin: 6px 0 6px 0;
 }
 
 li::marker {
@@ -18,9 +27,9 @@ li::marker {
 }
 
 hr {
-    width: 90%;
+    width: 80%;
     position: relative;
-    left: 0;
+    right: 0;
     margin-bottom: 15px;
 }
 
@@ -225,4 +234,18 @@ h3 {
     
 }
     
+/* Back to top button */
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
 /* Media Queries */
