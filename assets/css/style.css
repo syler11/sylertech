@@ -33,16 +33,32 @@ hr {
     margin-bottom: 15px;
 }
 
+/* Welcome page */
+
+#overlay {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+    z-index: 99999;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Containers */
 .main-container {
     min-height: calc(100vh - 106px);
 }
 
+#socials, #email {
+    visibility: hidden;
+}
+
 /* Social icons and email on the sides */
 .socials {
     position: fixed;
     bottom: 120px;
+    z-index: 999;
 }
 
 .socials li,
@@ -53,6 +69,7 @@ hr {
 .email {
     position: fixed;
     bottom: 190px;
+    z-index: 999;
 }
 
 .vl {

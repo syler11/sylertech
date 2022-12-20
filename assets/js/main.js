@@ -1,3 +1,20 @@
+$(document).ready(function(){
+  setTimeout(function(){
+      $('#overlay').fadeOut();
+  }, 5000);
+});
+
+const socials = document.getElementById('socials');
+const email = document.getElementById('email');
+
+setTimeout(() => {
+  socials.style.visibility = 'visible';
+  email.style.visibility = 'visible';
+
+  // 👇️ if you used `display` to hide element
+  // el.style.display = 'block';
+}, 6000); // 👈️ delay in milliseconds
+
 var today = new Date();
 
 function getYear() {
