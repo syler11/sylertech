@@ -45,6 +45,10 @@ hr {
     align-items: center;
 }
 
+#logoOne, #logoTwo, #logoLeftBracket, #logoRightBracket, #navbar, #navbrand, #section {
+    display: none;
+}
+
 /* Containers */
 .main-container {
     min-height: calc(100vh - 106px);
@@ -87,9 +91,14 @@ hr {
     letter-spacing: 1px;
 }
 
+.navbar {
+    min-height: 56px;
+}
+
 /* Home section */
 #home {
-    margin-top: 150px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     margin-left: 25%;
 }
 

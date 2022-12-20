@@ -4,8 +4,31 @@ $(document).ready(function(){
   }, 5000);
 });
 
+const logoOne = document.getElementById('logoOne');
+const logoTwo = document.getElementById('logoTwo');
+const logoLeftBracket = document.getElementById('logoLeftBracket');
+const logoRightBracket = document.getElementById('logoRightBracket');
+
+setTimeout(() => {
+  logoLeftBracket.style.display = 'inline-block';
+}, 1000);
+
+setTimeout(() => {
+  logoOne.style.display = 'inline-block';
+}, 1500);
+
+setTimeout(() => {
+  logoTwo.style.display = 'inline-block';
+}, 2000);
+
+setTimeout(() => {
+  logoRightBracket.style.display = 'inline-block';
+}, 2500);
+
+const navbar = document.getElementById('navbar')
 const socials = document.getElementById('socials');
 const email = document.getElementById('email');
+const section = document.getElementById('section');
 
 setTimeout(() => {
   socials.style.visibility = 'visible';
@@ -13,7 +36,21 @@ setTimeout(() => {
 
   // 👇️ if you used `display` to hide element
   // el.style.display = 'block';
+}, 8000); // 👈️ delay in milliseconds
+
+setTimeout(() => {
+  navbar.style.display = 'inline-flex';
+
+  // 👇️ if you used `display` to hide element
+  // el.style.display = 'block';
 }, 6000); // 👈️ delay in milliseconds
+
+setTimeout(() => {
+  section.style.display = 'flex';
+
+  // 👇️ if you used `display` to hide element
+  // el.style.display = 'block';
+}, 7000); // 👈️ delay in milliseconds
 
 var today = new Date();
 
