@@ -11,39 +11,21 @@ const logoRightBracket = document.getElementById('logoRightBracket');
 
 setTimeout(() => {
   logoLeftBracket.style.display = 'inline-block';
-}, 1000);
+}, 000);
 
 setTimeout(() => {
   logoOne.style.display = 'inline-block';
-}, 1500);
+}, 2500);
 
 setTimeout(() => {
   logoTwo.style.display = 'inline-block';
-}, 2000);
+}, 3000);
 
 setTimeout(() => {
   logoRightBracket.style.display = 'inline-block';
-}, 2500);
+}, 00);
 
-const navbar = document.getElementById('navbar')
-const socials = document.getElementById('socials');
-const email = document.getElementById('email');
 const section = document.getElementById('section');
-
-setTimeout(() => {
-  socials.style.visibility = 'visible';
-  email.style.visibility = 'visible';
-
-  // 👇️ if you used `display` to hide element
-  // el.style.display = 'block';
-}, 8000); // 👈️ delay in milliseconds
-
-setTimeout(() => {
-  navbar.style.display = 'inline-flex';
-
-  // 👇️ if you used `display` to hide element
-  // el.style.display = 'block';
-}, 6000); // 👈️ delay in milliseconds
 
 setTimeout(() => {
   section.style.display = 'flex';

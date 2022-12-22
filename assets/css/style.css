@@ -45,7 +45,7 @@ hr {
     align-items: center;
 }
 
-#logoOne, #logoTwo, #logoLeftBracket, #logoRightBracket, #navbar, #navbrand, #section {
+#logoOne, #logoTwo, #logoLeftBracket, #logoRightBracket, #section {
     display: none;
 }
 
@@ -55,7 +55,7 @@ hr {
 }
 
 #socials, #email {
-    visibility: hidden;
+    z-index: -1;
 }
 
 /* Social icons and email on the sides */
@@ -282,14 +282,9 @@ h3 {
     --animation-time: 2s;
 }
 
-.fade-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
 .animated {
     background-size: cover;
+    animation-delay: 2s;
 }
 
 .animated1 {
@@ -301,6 +296,13 @@ h3 {
     -moz-animation: fadeInLeft var(--animation-time) both;
     -o-animation: fadeInLeft var(--animation-time) both;
     animation: fadeInLeft var(--animation-time) both;
+}
+
+.fadeInLeft800 {
+    -webkit-animation: fadeInLeft var(--animation-time) 8s both;
+    -moz-animation: fadeInLeft var(--animation-time) 8s both;
+    -o-animation: fadeInLeft var(--animation-time) 8s both;
+    animation: fadeInLeft var(--animation-time) 8s both;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -394,11 +396,58 @@ h3 {
    }
 }
 
+.fadeInTop575 {
+    -webkit-animation: fadeInTop var(--animation-time) 5.75s both;
+    -moz-animation: fadeInTop var(--animation-time) 5.75s both;
+    -o-animation: fadeInTop var(--animation-time) 5.75s both;
+    animation: fadeInTop var(--animation-time) 5.75s both;
+}
+.fadeInTop600 {
+    -webkit-animation: fadeInTop var(--animation-time) 6s both;
+    -moz-animation: fadeInTop var(--animation-time) 6s both;
+    -o-animation: fadeInTop var(--animation-time) 6s both;
+    animation: fadeInTop var(--animation-time) 6s both;
+}
+
+.fadeInTop625 {
+    -webkit-animation: fadeInTop var(--animation-time) 6.25s both;
+    -moz-animation: fadeInTop var(--animation-time) 6.25s both;
+    -o-animation: fadeInTop var(--animation-time) 6.25s both;
+    animation: fadeInTop var(--animation-time) 6.25s both;
+}
+
+.fadeInTop650 {
+    -webkit-animation: fadeInTop var(--animation-time) 6.5s both;
+    -moz-animation: fadeInTop var(--animation-time) 6.5s both;
+    -o-animation: fadeInTop var(--animation-time) 6.5s both;
+    animation: fadeInTop var(--animation-time) 6.5s both;
+}
+
+.fadeInTop675 {
+    -webkit-animation: fadeInTop var(--animation-time) 6.75s both;
+    -moz-animation: fadeInTop var(--animation-time) 6.75s both;
+    -o-animation: fadeInTop var(--animation-time) 6.75s both;
+    animation: fadeInTop var(--animation-time) 6.75s both;
+}
+
+.fadeInTop700 {
+    -webkit-animation: fadeInTop var(--animation-time) 7s both;
+    -moz-animation: fadeInTop var(--animation-time) 7s both;
+    -o-animation: fadeInTop var(--animation-time) 7s both;
+    animation: fadeInTop var(--animation-time) 7s both;
+}
+
 .fadeInRight {
     -webkit-animation: fadeInRight var(--animation-time) both;
     -moz-animation: fadeInRight var(--animation-time) both;
     -o-animation: fadeInRight var(--animation-time) both;
     animation: fadeInRight var(--animation-time) both;
+}
+.fadeInRight800 {
+    -webkit-animation: fadeInRight var(--animation-time) 8s both;
+    -moz-animation: fadeInRight var(--animation-time) 8s both;
+    -o-animation: fadeInRight var(--animation-time) 8s both;
+    animation: fadeInRight var(--animation-time) 8s both;
 }
 
 @-webkit-keyframes fadeInRight {
