@@ -284,7 +284,6 @@ h3 {
 
 .animated {
     background-size: cover;
-    animation-delay: 2s;
 }
 
 .animated1 {
@@ -348,10 +347,10 @@ h3 {
 }
 
 .fadeInTop08 {
-    -webkit-animation: fadeInTop var(--animation-time) both;
-    -moz-animation: fadeInTop var(--animation-time) both;
-    -o-animation: fadeInTop var(--animation-time) both;
-    animation: fadeInTop var(--animation-time) both;
+    -webkit-animation: fadeInTop08 var(--animation-time) both;
+    -moz-animation: fadeInTop08 var(--animation-time) both;
+    -o-animation: fadeInTop08 var(--animation-time) both;
+    animation: fadeInTop08 var(--animation-time) both;
 }
 
 @-webkit-keyframes fadeInTop08 {
