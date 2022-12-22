@@ -25,15 +25,6 @@ setTimeout(() => {
   logoRightBracket.style.display = 'inline-block';
 }, 00);
 
-const section = document.getElementById('section');
-
-setTimeout(() => {
-  section.style.display = 'flex';
-
-  // 👇️ if you used `display` to hide element
-  // el.style.display = 'block';
-}, 7000); // 👈️ delay in milliseconds
-
 var today = new Date();
 
 function getYear() {
