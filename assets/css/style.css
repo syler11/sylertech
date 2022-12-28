@@ -585,7 +585,7 @@ h3 {
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
-    #home, #about {
+    #home, #about, #experience, #work, #contact {
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 50px;
