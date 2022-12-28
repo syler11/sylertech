@@ -585,10 +585,11 @@ h3 {
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
-    #home, #about, #experience, #work, #contact {
+    #home, #about, #experience, #work {
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 50px;
         margin-bottom: 50px;
+        width: 80%;
     }
   }
