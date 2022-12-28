@@ -133,3 +133,23 @@ const observer3 = new IntersectionObserver(entries => {
 })
 
 observer3.observe(document.querySelector(".project-four"));
+
+$(document).ready(function(){
+  if(window.innerWidth < 992){
+    $('.nav1').removeClass('fadeInTop600');
+    $('.nav2').removeClass('fadeInTop625');
+    $('.nav3').removeClass('fadeInTop650');
+    $('.nav4').removeClass('fadeInTop675');
+    $('.nav5').removeClass('fadeInTop700');
+  }
+});
+
+$(window).resize(function(){
+  if(window.innerWidth < 992){
+    $('.nav1').removeClass('fadeInTop600');
+    $('.nav2').removeClass('fadeInTop625');
+    $('.nav3').removeClass('fadeInTop650');
+    $('.nav4').removeClass('fadeInTop675');
+    $('.nav5').removeClass('fadeInTop700');
+  }
+});
