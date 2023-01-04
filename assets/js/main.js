@@ -83,6 +83,7 @@ const observer = new IntersectionObserver(entries => {
       document.querySelectorAll(".animated")[3].classList.add("fadeInTop08");
       document.querySelectorAll(".animated")[4].classList.add("fadeInRight");
       document.querySelectorAll(".animated")[5].classList.add("fadeInRight");
+      document.querySelectorAll(".animated")[6].classList.add("fadeInRight");
     }
   })
 })
