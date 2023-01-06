@@ -83,7 +83,13 @@ const observer = new IntersectionObserver(entries => {
       document.querySelectorAll(".animated")[3].classList.add("fadeInTop08");
       document.querySelectorAll(".animated")[4].classList.add("fadeInRight");
       document.querySelectorAll(".animated")[5].classList.add("fadeInRight");
-      document.querySelectorAll(".animated")[6].classList.add("fadeInRight");
+    } else {
+      document.querySelectorAll(".animated")[0].classList.remove("fadeInRight");
+      document.querySelectorAll(".animated")[1].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated")[2].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated")[3].classList.remove("fadeInTop08");
+      document.querySelectorAll(".animated")[4].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated")[5].classList.remove("fadeInLeft");
     }
   })
 })
@@ -99,6 +105,13 @@ const observer1 = new IntersectionObserver(entries => {
       document.querySelectorAll(".animated1")[3].classList.add("fadeInTop08");
       document.querySelectorAll(".animated1")[4].classList.add("fadeInLeft");
       document.querySelectorAll(".animated1")[5].classList.add("fadeInLeft");
+    } else {
+      document.querySelectorAll(".animated1")[0].classList.remove("fadeInRight");
+      document.querySelectorAll(".animated1")[1].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated1")[2].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated1")[3].classList.remove("fadeInTop08");
+      document.querySelectorAll(".animated1")[4].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated1")[5].classList.remove("fadeInLeft");
     }
   })
 })
@@ -114,6 +127,13 @@ const observer2 = new IntersectionObserver(entries => {
       document.querySelectorAll(".animated2")[3].classList.add("fadeInTop08");
       document.querySelectorAll(".animated2")[4].classList.add("fadeInRight");
       document.querySelectorAll(".animated2")[5].classList.add("fadeInRight");
+    } else {
+      document.querySelectorAll(".animated2")[0].classList.remove("fadeInRight");
+      document.querySelectorAll(".animated2")[1].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated2")[2].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated2")[3].classList.remove("fadeInTop08");
+      document.querySelectorAll(".animated2")[4].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated2")[5].classList.remove("fadeInLeft");
     }
   })
 })
@@ -129,6 +149,13 @@ const observer3 = new IntersectionObserver(entries => {
       document.querySelectorAll(".animated3")[3].classList.add("fadeInTop08");
       document.querySelectorAll(".animated3")[4].classList.add("fadeInLeft");
       document.querySelectorAll(".animated3")[5].classList.add("fadeInLeft");
+    } else {
+      document.querySelectorAll(".animated3")[0].classList.remove("fadeInRight");
+      document.querySelectorAll(".animated3")[1].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated3")[2].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated3")[3].classList.remove("fadeInTop08");
+      document.querySelectorAll(".animated3")[4].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated3")[5].classList.remove("fadeInLeft");
     }
   })
 })
