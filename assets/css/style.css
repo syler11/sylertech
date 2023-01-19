@@ -602,6 +602,10 @@ h3 {
         width: 80%;
     }
 
+    #work {
+       padding-top: 0;
+    }
+
     .project-image img {
         width: 100%;
     }
