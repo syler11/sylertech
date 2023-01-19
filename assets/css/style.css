@@ -154,6 +154,7 @@ h3 {
     margin-top: 150px;
     margin-left: 15%;
     width: 70%;
+    min-height: 350px;
 }
 
 /* Style the tab */

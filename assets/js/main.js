@@ -84,12 +84,12 @@ const observer = new IntersectionObserver(entries => {
       document.querySelectorAll(".animated")[4].classList.add("fadeInRight");
       document.querySelectorAll(".animated")[5].classList.add("fadeInRight");
     } else {
-      document.querySelectorAll(".animated")[0].classList.remove("fadeInRight");
-      document.querySelectorAll(".animated")[1].classList.remove("fadeInLeft");
-      document.querySelectorAll(".animated")[2].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated")[0].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated")[1].classList.remove("fadeInRight");
+      document.querySelectorAll(".animated")[2].classList.remove("fadeInRight");
       document.querySelectorAll(".animated")[3].classList.remove("fadeInTop08");
-      document.querySelectorAll(".animated")[4].classList.remove("fadeInLeft");
-      document.querySelectorAll(".animated")[5].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated")[4].classList.remove("fadeInRight");
+      document.querySelectorAll(".animated")[5].classList.remove("fadeInRight");
     }
   })
 })
@@ -128,12 +128,12 @@ const observer2 = new IntersectionObserver(entries => {
       document.querySelectorAll(".animated2")[4].classList.add("fadeInRight");
       document.querySelectorAll(".animated2")[5].classList.add("fadeInRight");
     } else {
-      document.querySelectorAll(".animated2")[0].classList.remove("fadeInRight");
-      document.querySelectorAll(".animated2")[1].classList.remove("fadeInLeft");
-      document.querySelectorAll(".animated2")[2].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated2")[0].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated2")[1].classList.remove("fadeInRight");
+      document.querySelectorAll(".animated2")[2].classList.remove("fadeInRight");
       document.querySelectorAll(".animated2")[3].classList.remove("fadeInTop08");
-      document.querySelectorAll(".animated2")[4].classList.remove("fadeInLeft");
-      document.querySelectorAll(".animated2")[5].classList.remove("fadeInLeft");
+      document.querySelectorAll(".animated2")[4].classList.remove("fadeInRight");
+      document.querySelectorAll(".animated2")[5].classList.remove("fadeInRight");
     }
   })
 })
